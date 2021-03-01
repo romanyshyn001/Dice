@@ -1,0 +1,143 @@
+                                /*Створю блок в якому буде знвходитись кубік під цифрою 6*/
+.block_1 {                          
+    border: 0px solid;
+    height: 120px;
+    width: 100%;
+    display: flex; 
+    align-items:center;
+    align-content: center;
+    flex-flow: row wrap; 
+    justify-content:center;  
+}
+                               /*Кубік. Цифра 6*/                 
+.block_1 .cube_1 {                  
+    border: 5px solid;
+    border-radius:20%;
+    height: 100px;
+    width:100px;
+    display:flex;
+    align-items:center;
+    flex-flow: column wrap; 
+    justify-content:space-around;  
+    
+}
+                                /*Задає цифру на кубику*/
+.block_1 .cube_1 div{               
+    border: 1px solid;
+    height: 25px;
+    width: 25px;
+    border-radius:100%;
+    background: black;
+}
+                                /*Створю блок в якому буде знвходитись кубіки під цифрами 3, 5, 2*/
+.block_2 {                          
+    border: 0px solid;
+    height: 120px;
+    width: 25%;
+    display: flex; 
+    align-items:center;
+    align-content: center;
+    flex-flow: row wrap; 
+    justify-content:space-around;  
+    margin: 0 auto;
+}
+                                /*Кубіки під цифрами 3, 5, 2*/
+.block_2 div {                  
+    border: 5px solid;
+    border-radius:20%;
+    height: 100px;
+    width:100px;
+    display: flex;
+    align-content:center;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content:space-around; 
+}
+                                /*Створює 2 точки*/
+.block_2 .cube_2 .transform div{        
+    border: 1px solid;
+    height: 25px;
+    width: 25px;
+    border-radius:100%;
+    background: black;
+    margin:25px ;
+}
+                                /*Повертає куб я в якому 2 точки*/
+.block_2 .cube_2 .transform {               
+    border: 0px solid;
+    height:100px;
+    width: 100px;
+    transform:rotate(135deg);
+}
+                                        /*Створює 3 точки*/                                    
+.block_2 .cube_4 .transform_5 div{      
+    border: 1px solid;
+    height: 25px;
+    width: 25px;
+    border-radius:100%;
+    background: black;     
+}
+                                    /*Повертає куб я в якому 3 точки*/
+.block_2 .cube_4 div{               
+    border: 0px solid;
+    height: 100px;
+    width: 110px;
+    transform:rotate(45deg);  
+}
+                                /*Створює чорні точки*/
+.block_2 .cube_3  div {          
+    border: 1px solid;
+    height: 25px;
+    width: 25px;
+    border-radius:100%;
+    background: black; 
+}
+                                /*Створює  білі точки*/
+.block_2 .cube_3  .five_2 {          
+    border: 0px solid;
+    height: 25px;
+    width: 25px;
+    border-radius:100%;
+    background: none;  
+}
+                            /*Створю блок в якому буде знвходитись кубіки під цифрами 4  та 1*/
+.block_3 {                  
+    border: 0px solid;
+    height: 240px;
+    width: 100%;
+    display: flex; 
+    align-items:center;
+    align-content: center;
+    flex-flow: column wrap; 
+    justify-content:space-around;    
+}
+                                /*Кубіки під цифрами 3, 5, 2*/
+.block_3 div {                  
+    border: 5px solid;
+    border-radius:20%;
+    height: 100px;
+    width:100px;
+    display: flex; 
+    align-items:center;
+    align-content: center   ;
+    flex-flow: column wrap; 
+    justify-content:space-around;   
+}
+                                    /*Створює 4 точки */
+.block_3 .cube_5 div {              
+    border: 1px solid;
+    height: 25px;
+    width: 25px;
+    border-radius:100%;
+    background: black;
+    margin: 10px;
+}
+                                /*Створює 1 точку */
+.block_3 .cube_6 div{        
+    border: 1px solid;
+    height: 25px;
+    width: 25px;
+    border-radius:100%;
+    background: black;
+    margin: 10px;
+}
